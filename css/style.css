@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	box-shadow: 0 5px 20px #2d2d2d1c;
+	padding: 10px;
+}
+img{
+	max-width: 100%;
+}
+
+.wrapper{
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+
+}
+
+nav{
+	width: 80%;
+	float: left;
+	overflow: hidden;
+	font-size: 20px;
+
+}
+
+nav > ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+nav > ul > li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav > ul >li > a{
+	animation-timing-function: ease-in-out;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 22px;
+    text-transform: capitalize;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+
+}
+
+nav > ul >li > a:hover{
+	background-color: #bec7f1;
+	color: #0c66ff;
+
+}
+
+.about-section{
+	
+	text-align: center;
+		
+	padding: 50px 0;
+}
+
+.about-section h1{
+	
+	color: #3b506c;
+		
+	margin: 0 auto;
+		
+	font-size: 65px;
+		
+	max-width: 850px;
+}
+
+.about-section h1 span{
+	
+	color: red;
+}
+
+.about-section p {
+	
+	margin: 0;
+		
+	font-size: 15px;
+		
+	color: #3b506c;
+}
+
+section img{
+	margin: auto;
+	display: block;
+	max-width: 500px;
+}
+
+.feature-section{
+
+padding: 50px 0;
+}
+
+.column{
+
+width: 50%;
+
+float: left;
+}
+
+.feature{
+	color: #3b506c;
+	padding: 25px;
+}
+
+.feature h2{
+	
+	font-size: 55px;
+	
+	margin: 0;
+
+}
+
+.feature h2 span{
+color: #F25767;
+}
+
+.feature p{
+	
+margin: 0;
+	
+font-size: 15px;
+	
+color: #3b506c;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.blog-section{}
+.col{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.blog{
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px #2d2d2d1c;
+}
+.blog img{
+	
+width: 250px;
+	
+height: 250px;
+}
+.blog h3{
+    font-size: 30px;
+    color: #3b506c;
+}
+.blog p{
+    font-size: 18px;
+    color: #3b506c;
+}
+
+.red{
+	background: #FFF7E8;
+}
+
+.yellow{
+	background: #EBF9F4;
+}
+
+.green{
+	background: #FDEBED;
+}
+
